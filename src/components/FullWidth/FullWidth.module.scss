@@ -1,0 +1,151 @@
+.full_width {
+  .item_1,
+  .item_2,
+  .item_3 {
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  margin-top: 64px;
+  h5 {
+    font-size: 21px;
+    margin-bottom: 12px;
+    opacity: 0.6;
+  }
+
+  .item_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b2239;
+    padding: 12px 48px;
+
+    p {
+      color: #fff;
+      font-size: 13px;
+      max-width: 680px;
+    }
+
+    .btn {
+      display: flex;
+      // height: 36px;
+    }
+
+    .btn_1 {
+      color: #4ad295;
+      outline: none;
+      border: 1px solid transparent;
+      background: transparent;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 12px;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        border: 1px solid #4ad295;
+      }
+    }
+    .btn_2 {
+      color: #fff;
+      background-color: #4ad295;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #4bd296cc;
+      }
+    }
+  }
+
+  .item_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #2b2627;
+    margin-top: 24px;
+    padding: 12px 0;
+
+    p {
+      color: #fff;
+      font-size: 13px;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+  }
+
+  .item_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #0b6655;
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: #d7efeb;
+
+    .btn {
+      display: flex;
+      align-items: center;
+    }
+
+    .btn_1 {
+      width: 116px;
+      height: 40px;
+      font-weight: 700;
+      color: #0b6655;
+      outline: none;
+      border: 1px solid #0b6655;
+      border-radius: 5px;
+      background: transparent;
+      cursor: pointer;
+      margin-right: 12px;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        transform: translateY(1.5px);
+      }
+    }
+    .btn_2 {
+      color: #fff;
+      background-color: #0b6655;
+      border: 0;
+      padding: 12px;
+      border-radius: 5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        transform: translateY(1.5px);
+      }
+    }
+
+    .close {
+      width: 12px;
+      height: 12px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+
+    p {
+      font-size: 13px;
+      max-width: 680px;
+    }
+  }
+}
