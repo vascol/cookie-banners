@@ -14,12 +14,6 @@ function App() {
     <div className="App">
       <div className="container">
         <h1 className="main_title">Cookie Banners</h1>
-        <h5 className="main_subtitle">
-          Made by{" "}
-          <span>
-            <i>Vascol</i>
-          </span>
-        </h5>
         <FullWidth />
         <FixedWidth1000 />
         <FixedWidth840 />
