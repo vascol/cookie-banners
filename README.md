@@ -1,4 +1,4 @@
-# Coolie baners
+# Cookie baners
 
 Banners of various sizes
 
